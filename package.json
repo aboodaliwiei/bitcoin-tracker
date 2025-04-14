@@ -1,18 +1,24 @@
 {
   "name": "chart1",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "firebase": "^10.0.0",
+    "@heroicons/react": "^2.1.1",
+    "@tanstack/react-query": "^4.29.6",
+    "axios": "^1.6.7",
+    "firebase": "^10.11.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "recharts": "^2.9.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^5.0.0"
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.0"
   }
 }
