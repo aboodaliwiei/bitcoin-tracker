@@ -12,6 +12,5 @@ export default defineConfig({
     port: 5173
   },
   preview: {
-    allowedHosts: ['bitcoin-tracker-b45e.onrender.com']
   }
 })

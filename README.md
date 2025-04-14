@@ -22,5 +22,5 @@ npm run build
 ## المعاينة
 
 ```bash
-npm run start
+npm run preview
 ```
